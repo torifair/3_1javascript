@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST Countries – Wyszukiwanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Wyszukaj kraj po stolicy</h1>
+
+    <form id="searchForm">
+        <input type="text" id="capitalInput" placeholder="Wpisz nazwę stolicy (np. Warsaw)">
+        <button type="submit">Szukaj</button>
+    </form>
+
+    <p id="message"></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Capital</th>
+                <th>Population</th>
+                <th>Region</th>
+                <th>Subregion</th>
+            </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
